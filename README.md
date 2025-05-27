@@ -6,10 +6,14 @@ SQL project for cleaning a layoffs dataset using MySQL. This project focuses on 
 
 ## 📂 Project Structure
 
+```
 /layoffs-sql-cleaning
-├── layoffs_data_cleaning.sql # Main SQL script with all cleaning steps
-├── layoffs_raw.csv # Raw dataset
-└── README.md # Project documentation
+├── layoffs_data_cleaning.sql     # Main SQL script with all cleaning steps
+├── layoffs_raw.csv               # Raw dataset
+└── README.md                     # Project documentation
+```
+
+---
 
 ## 📋 Project Description
 
@@ -35,6 +39,7 @@ This project demonstrates how to clean real-world data using SQL. The dataset co
 ## 📊 Dataset
 
 - 📁 File: `layoffs_raw.csv`
+- 📌 Source: *[Add the original dataset source link here, e.g., Kaggle]*
 
 ---
 
@@ -71,10 +76,9 @@ WITH duplicate_cte AS (
 )
 DELETE FROM layoffs_staging2
 WHERE row_num > 1;
-
+```
 
 ---
-
 
 ## 👤 Author
 
